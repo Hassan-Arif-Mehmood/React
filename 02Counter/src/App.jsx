@@ -22,8 +22,8 @@ if(count>0){
     <>
   <h1>Chai Our React</h1>
   <h2>Counter: {count}</h2>
-  <button onClick={addvalue}>Add Value</button><br/>
-  <button onClick={remvevalue}>Remove Value</button>
+  <button onClick={addvalue}>Add Value {count}</button><br/><br />
+  <button onClick={remvevalue}>Remove Value {count}</button>
     </>
   )
 }
